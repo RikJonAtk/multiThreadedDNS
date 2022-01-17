@@ -25,7 +25,7 @@ if __name__ == "__main__":
     lookupFail = Queue(maxsize=0)
     lookupSuccess = Queue(maxsize=0)
 
-    filename = "bigHostnames.txt"
+    filename = "hostnamesBig.txt"
 
     with open(filename) as file:
         hostnames = file.readlines()
